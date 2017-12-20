@@ -8,10 +8,9 @@ for (var i = 0; i < ar_length; i++) {
   console.log(i, ar[i]);
 }
 
-var rand_number = Math.random()*(19-0)+0;
+var rand_number = Math.random(0, 100);
 console.log('rand_number', rand_number); 
 
 
-var round = Math.round(rand_number); 
-console.log('round', ar [round]);
-
+var round = Math.round(3.2); 
+console.log('round', round);
